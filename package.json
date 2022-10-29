@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mdx-js/react": "v1",
+    "@theme-ui/presets": "^0.15.3",
     "next": "13.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "theme-ui": "^0.15.3"
   },
   "devDependencies": {
     "@types/node": "18.11.7",
