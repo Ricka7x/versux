@@ -10,7 +10,9 @@ enum COLORS {
   MID_GREY = '#AEAEAE',
   GREY = '#6B6A6A',
   TRANSPARENT = '#FFFFFF00',
-  PURPLE = '#5B53FF',
+  PURPLE = '#866FFF',
+  DARK_PURPLE = '#372948',
+  CYAN = '#20C2D7',
 }
 
 export const theme: Theme = {
@@ -23,31 +25,34 @@ export const theme: Theme = {
     white: COLORS.WHITE,
     grey: COLORS.GREY,
     transparent: COLORS.TRANSPARENT,
-    primary: COLORS.BLACK,
+    primary: COLORS.PURPLE,
     secondary: COLORS.LIGHT_GREY,
-    highlight: COLORS.GOLD,
+    highlight: COLORS.CYAN,
     muted: COLORS.MID_GREY,
     disabled: COLORS.LIGHT_GREY,
     light: COLORS.LIGHT_GREY,
     link: COLORS.PURPLE,
+    background: COLORS.WHITE,
   },
   fonts: {
     ...base.fonts,
-    body: 'Poppins, system-ui, sans-serif',
-    heading: 'Poppins, system-ui, sans-serif',
+    body: 'Montserrat, system-ui, sans-serif',
+    heading: 'Montserrat, system-ui, sans-serif',
   },
 
   text: {
     title: {
       fontFamily: 'heading',
-      fontWeight: 600,
-      fontSize: ['40px', '40px', '40px', '60px'],
+      fontWeight: 800,
+      fontSize: [40, 40, 40, 60],
+      lineHeight: [1.2, 1.3],
     },
 
     body: {
       fontFamily: 'heading',
       fontWeight: 400,
-      fontSize: '18px',
+      fontSize: 1.2,
+      lineHeight: 1.6,
     },
     link: {
       color: 'link',
@@ -182,7 +187,7 @@ export const theme: Theme = {
       py: 2,
       fontWeight: 'normal',
       textTransform: 'capitalize',
-      color: 'muted',
+      color: 'white',
       '&:hover': {
         color: 'highlight',
       },
