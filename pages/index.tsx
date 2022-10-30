@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
+import { About } from '../src/components/About';
 import { Hero } from '../src/components/Hero';
 
 export default function Home() {
@@ -34,7 +35,7 @@ export default function Home() {
           flex: '1 1 auto',
         }}
       >
-        Main
+        <About />
       </main>
       <footer
         sx={{
