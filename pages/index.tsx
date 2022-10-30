@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import { About } from '../src/components/About';
+import { Features } from '../src/components/Features';
 import { Hero } from '../src/components/Hero';
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
         }}
       >
         <About />
+        <Features />
       </main>
       <footer
         sx={{
