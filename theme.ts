@@ -41,18 +41,30 @@ export const theme: Theme = {
   },
 
   text: {
-    title: {
+    default: {
+      fontSize: 2,
+      lineHeight: 1.8,
+    },
+    h1: {
       fontFamily: 'heading',
       fontWeight: 800,
       fontSize: [40, 40, 40, 60],
       lineHeight: [1.2, 1.3],
     },
 
+    h2: {
+      fontFamily: 'heading',
+      fontWeight: 800,
+      fontSize: [40, 40, 40, 50],
+      lineHeight: [1.2, 1.3],
+    },
+
     body: {
       fontFamily: 'heading',
       fontWeight: 400,
-      fontSize: 1.2,
-      lineHeight: 1.6,
+      fontSize: 16,
+      color: 'grey',
+      lineHeight: 1.8,
     },
     link: {
       color: 'link',
@@ -77,6 +89,9 @@ export const theme: Theme = {
     },
     white: {
       color: 'white',
+    },
+    lead: {
+      fontSize: 3,
     },
   },
 
