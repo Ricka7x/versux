@@ -1,1 +1,1 @@
-export { default as Hero } from './Container';
+export { default as Container } from './Container';
