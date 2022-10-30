@@ -4,7 +4,7 @@ function Container({ children }: { children: ReactNode }) {
   return (
     <div
       sx={{
-        maxWidth: 2000,
+        maxWidth: 1500,
         minWidth: 375,
         paddingX: [20, 30, 30, 140],
         margin: '0 auto',
