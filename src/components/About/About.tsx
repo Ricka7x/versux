@@ -14,7 +14,7 @@ export default function About() {
         >
           <Flex
             sx={{
-              mr: [0, 3, 4, 7],
+              mr: [0, 3, 4, 5],
               width: ['100%', '100%', '100%', '50%'],
               justifyContent: 'center',
               order: [2, 2, 1, 1],
@@ -57,8 +57,6 @@ export default function About() {
               sint aspernatur, porro perspiciatis error quae voluptatibus!
               Laboriosam incidunt, ab neque voluptatem quasi quaerat corporis
               sunt officia praesentium suscipit nobis. Ab ipsum aut dolore
-              architecto repellat, at cupiditate, quos, totam culpa magni
-              dignissimos tenetur debitis?
             </Text>
           </Box>
         </Flex>
