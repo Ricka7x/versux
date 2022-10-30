@@ -1,11 +1,11 @@
-import { Flex, Image as ThemeImage } from 'theme-ui';
+import { useRouter } from 'next/router';
+import { Flex, Image } from 'theme-ui';
 import Headroom from 'react-headroom';
+import { scroller } from 'react-scroll';
 import Container from '../Container/Container';
 import { MenuItem } from '../MenuItem';
-import { useRouter } from 'next/router';
-import Image from 'next/image';
 
-const navMenu = ['home', 'features', 'about', 'quotes'];
+const navMenu = ['home', 'about', 'features', 'quotes'];
 
 export type NavigationPropsType = {
   activeMenuOption: string;
@@ -60,7 +60,13 @@ export default function Navigation({
                     <MenuItem
                       title={item}
                       isActive={activeMenuOption === item}
-                      onClick={() => setActiveMenuOption(item)}
+                      onClick={() => {
+                        setActiveMenuOption(item);
+                        scroller.scrollTo(item, {
+                          smooth: true,
+                          duration: 500,
+                        });
+                      }}
                     />
                   </li>
                 ))}

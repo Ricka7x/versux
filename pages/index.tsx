@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
+import { Element } from 'react-scroll';
 import { About } from '../src/components/About';
 import { Features } from '../src/components/Features';
 import { Hero } from '../src/components/Hero';
@@ -26,10 +27,12 @@ export default function Home() {
           width: '100%',
         }}
       >
-        <Hero
-          activeMenuOption={activeMenuOption}
-          setActiveMenuOption={setActiveMenuOption}
-        />
+        <Element name="home">
+          <Hero
+            activeMenuOption={activeMenuOption}
+            setActiveMenuOption={setActiveMenuOption}
+          />
+        </Element>
       </header>
       <main
         sx={{

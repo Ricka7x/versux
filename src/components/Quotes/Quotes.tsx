@@ -1,3 +1,4 @@
+import { Element } from 'react-scroll';
 import { Box, Flex, Text } from 'theme-ui';
 import { Container } from '../Container';
 import { QuotesCarousel } from '../QuotesCarousel';
@@ -54,32 +55,34 @@ const QUOTES_STEPS = [
 export default function Quotes() {
   return (
     <section>
-      <Box sx={{ mt: 6 }}>
-        <Container>
-          <Box
-            sx={{
-              justifyContent: 'center',
-              maxWidth: 750,
-              m: '0 auto',
-              textAlign: 'center',
-            }}
-          >
-            <Text
-              sx={{ display: 'block', textAlign: 'center', mb: 4 }}
-              variant="h2"
+      <Element name="quotes">
+        <Box sx={{ mt: 6 }}>
+          <Container>
+            <Box
+              sx={{
+                justifyContent: 'center',
+                maxWidth: 750,
+                m: '0 auto',
+                textAlign: 'center',
+              }}
             >
-              What our customers say
-            </Text>
+              <Text
+                sx={{ display: 'block', textAlign: 'center', mb: 4 }}
+                variant="h2"
+              >
+                What our customers say
+              </Text>
 
-            <Text sx={{ display: 'block', mb: [3, 7] }}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
-              dolores quod ratione repudiandae quaerat quo aperiam a, neque
-              accusamus quasi.
-            </Text>
-          </Box>
-        </Container>
-        <QuotesCarousel steps={QUOTES_STEPS} />
-      </Box>
+              <Text sx={{ display: 'block', mb: [3, 7] }}>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+                dolores quod ratione repudiandae quaerat quo aperiam a, neque
+                accusamus quasi.
+              </Text>
+            </Box>
+          </Container>
+          <QuotesCarousel steps={QUOTES_STEPS} />
+        </Box>
+      </Element>
     </section>
   );
 }
