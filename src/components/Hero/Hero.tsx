@@ -30,7 +30,7 @@ export default function Hero({
         height: ['100vh', 760],
         background: `linear-gradient(-45deg, #ee7752, #e73c7e, #866FFF, #20C2D7)`,
         backgroundSize: '400% 400%',
-        animation: `${gradient} 15s ease infinite`,
+        animation: `${gradient} 10s ease infinite`,
       }}
     >
       <Box
@@ -47,9 +47,9 @@ export default function Hero({
           setActiveMenuOption={setActiveMenuOption}
         />
         <Container>
-          <Box pt={2} color="white" sx={{ maxWidth: 800, margin: '0 auto' }}>
+          <Box pt={2} color="white" sx={{ maxWidth: 970, margin: '0 auto' }}>
             <Text
-              variant="title"
+              variant="h1"
               sx={{
                 display: 'block',
                 textAlign: 'center',
@@ -59,7 +59,10 @@ export default function Hero({
               Tell us who wins, we&lsquo;ll tell you how to split the money
             </Text>
             <Box sx={{ maxWidth: 691, margin: '0 auto' }}>
-              <Text sx={{ display: 'block', textAlign: 'center', mt: 3 }}>
+              <Text
+                variant="lead"
+                sx={{ display: 'block', textAlign: 'center', mt: 3 }}
+              >
                 Versux is a soccer polling app, created to give football soccer
                 fans all around the world an opportunity for their voice to be
                 heard.
@@ -91,6 +94,7 @@ export default function Hero({
           <Flex
             sx={{
               justifyContent: 'center',
+              alignItems: 'center',
               mt: 4,
               mb: 10,
               display: ['none', 'flex'],
@@ -99,39 +103,41 @@ export default function Hero({
             <Box>
               <Image
                 src="/images/profile.png"
-                height={438}
-                width={215}
+                height={562}
+                width={276}
                 alt="profile"
                 sx={{
+                  width: [215, 215, 276, 276],
+                  height: [438, 438, 562, 562],
                   boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
-                  borderBottomLeftRadius: 40,
-                  borderBottomRightRadius: 40,
+                  borderBottomLeftRadius: [38, 38, 47, 53],
+                  borderBottomRightRadius: [38, 38, 47, 53],
                 }}
               />
             </Box>
             <Box sx={{ mx: 3 }}>
               <Image
                 src="/images/home.png"
-                height={470}
-                width={231}
                 alt="home"
                 sx={{
+                  width: [231, 231, 327, 327],
+                  height: [470, 470, 664, 664],
                   boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
-                  borderBottomLeftRadius: 40,
-                  borderBottomRightRadius: 40,
+                  borderBottomLeftRadius: [42, 42, 56, 61],
+                  borderBottomRightRadius: [42, 42, 56, 61],
                 }}
               />
             </Box>
             <Box>
               <Image
                 src="/images/prediction.png"
-                height={438}
-                width={215}
                 alt="prediction"
                 sx={{
+                  width: [215, 215, 276, 276],
+                  height: [438, 438, 562, 562],
                   boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
-                  borderBottomLeftRadius: 40,
-                  borderBottomRightRadius: 40,
+                  borderBottomLeftRadius: [38, 38, 47, 53],
+                  borderBottomRightRadius: [38, 38, 47, 53],
                 }}
               />
             </Box>
