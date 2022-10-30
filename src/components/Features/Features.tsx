@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Flex, Image, Text } from 'theme-ui';
 import { Container } from '../Container';
 
