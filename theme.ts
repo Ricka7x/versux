@@ -59,6 +59,13 @@ export const theme: Theme = {
       lineHeight: [1.2, 1.3],
     },
 
+    h3: {
+      fontFamily: 'heading',
+      fontWeight: 800,
+      fontSize: [32, 32, 32, 40],
+      lineHeight: [1.2, 1.3],
+    },
+
     body: {
       fontFamily: 'heading',
       fontWeight: 400,
