@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { About } from '../src/components/About';
 import { Features } from '../src/components/Features';
 import { Hero } from '../src/components/Hero';
+import { Quotes } from '../src/components/Quotes';
 
 export default function Home() {
   const [activeMenuOption, setActiveMenuOption] = useState('home');
@@ -38,6 +39,7 @@ export default function Home() {
       >
         <About />
         <Features />
+        <Quotes />
       </main>
       <footer
         sx={{
