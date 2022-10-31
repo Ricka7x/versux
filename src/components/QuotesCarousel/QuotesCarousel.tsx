@@ -185,7 +185,7 @@ export default function QuotesCarousel({ steps }: { steps: Step[] }) {
       </Box>
 
       {
-        <Flex sx={{ justifyContent: 'center', mt: 100 }}>
+        <Flex sx={{ justifyContent: 'center', mt: 100, zIndex: 5 }}>
           <Box onClick={() => slide(PREV)} sx={{ mx: 3, cursor: 'pointer' }}>
             <Image
               src="/images/left_arrow.svg"

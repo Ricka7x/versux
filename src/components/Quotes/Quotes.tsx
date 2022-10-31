@@ -2,6 +2,7 @@ import { Element } from 'react-scroll';
 import { Box, Flex, Text } from 'theme-ui';
 import { Container } from '../Container';
 import { QuotesCarousel } from '../QuotesCarousel';
+import faces from '../../../public/images/faces.png';
 
 // need to be an odd number
 const QUOTES_STEPS = [
@@ -56,7 +57,15 @@ export default function Quotes() {
   return (
     <section>
       <Element name="quotes">
-        <Box sx={{ mt: 6 }}>
+        <Box
+          sx={{
+            mt: 6,
+            backgroundImage: `url(${faces.src})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center 250px',
+            pb: 6,
+          }}
+        >
           <Container>
             <Box
               sx={{
@@ -80,7 +89,20 @@ export default function Quotes() {
               </Text>
             </Box>
           </Container>
-          <QuotesCarousel steps={QUOTES_STEPS} />
+          <Flex
+            sx={{
+              justifyContent: 'center',
+            }}
+          >
+            <Box
+              sx={{
+                width: '100%',
+                height: '100%',
+              }}
+            >
+              <QuotesCarousel steps={QUOTES_STEPS} />
+            </Box>
+          </Flex>
         </Box>
       </Element>
     </section>
