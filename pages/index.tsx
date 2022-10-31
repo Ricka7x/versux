@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Element } from 'react-scroll';
 import { About } from '../src/components/About';
 import { Features } from '../src/components/Features';
+import { Footer } from '../src/components/Footer';
 import { Hero } from '../src/components/Hero';
 import { Quotes } from '../src/components/Quotes';
 
@@ -44,13 +45,7 @@ export default function Home() {
         <Features />
         <Quotes />
       </main>
-      <footer
-        sx={{
-          width: '100%',
-        }}
-      >
-        Footer
-      </footer>
+      <Footer />
     </div>
   );
 }

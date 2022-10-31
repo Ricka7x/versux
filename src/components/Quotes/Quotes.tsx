@@ -60,14 +60,9 @@ export default function Quotes() {
         <Box
           sx={{
             mt: 6,
-            backgroundImage: [
-              'undefined',
-              'undefined',
-              'undefined',
-              `url(${faces.src})`,
-            ],
+            backgroundImage: ['none', 'none', 'none', `url(${faces.src})`],
             backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center 250px',
+            backgroundPosition: ['center 250px'],
             pb: 6,
           }}
         >
