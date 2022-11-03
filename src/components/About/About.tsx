@@ -5,7 +5,7 @@ import { Container } from '../Container';
 export default function About() {
   return (
     <section className="about-us">
-      <Element name="about">
+      <Element name="3 easy steps to play">
         <Container>
           <Flex
             sx={{
@@ -44,7 +44,7 @@ export default function About() {
                   textAlign: ['center', 'center', 'initial', 'initial'],
                 }}
               >
-                About us
+                1. Join a pool. Or twenty.
               </Text>
               <Text
                 variant="body"
@@ -54,13 +54,21 @@ export default function About() {
                   mb: [4, 4, 4, 4],
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum quidem dolorem praesentium optio possimus,
-                consectetur sint aspernatur, porro perspiciatis error quae
-                voluptatibus! Laboriosam incidunt, ab neque voluptatem quasi
-                quaerat corporis sunt officia praesentium suscipit nobis. Ab
-                ipsum aut dolore
+                  Create as many pools as you  want and invite as many friends as you like.
+
               </Text>
+                <Text
+                    variant="body"
+                    sx={{
+                        display: 'block',
+                        textAlign: ['center', 'center', 'initial', 'initial'],
+                        mb: [4, 4, 4, 4],
+                    }}
+                >
+                    If you are invited to a pool, you can accept the invite and start participating right away.
+                    Accept as many invitations as you want!
+
+                </Text>
             </Box>
           </Flex>
         </Container>

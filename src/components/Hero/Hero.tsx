@@ -56,15 +56,14 @@ export default function Hero({
                 mt: [1, 5],
               }}
             >
-                Enjoy soccer like never before.
+                Football pools like never before.
             </Text>
             <Box sx={{ maxWidth: 691, margin: '0 auto' }}>
               <Text
                 variant="lead"
                 sx={{ display: 'block', textAlign: 'center', mt: 3 }}
               >
-                Versux is a soccer polling app, created to give football soccer
-                fans all around a different experience.
+                  Challenge your friends and family to a soccer pool. Track points and positions in real time.
               </Text>
             </Box>
 
