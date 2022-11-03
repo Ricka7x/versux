@@ -101,7 +101,7 @@ export default function Hero({
           >
             <Box>
               <Image
-                src="/images/profile.png"
+                src="/images/screenshots/jennifer_dark.png"
                 height={562}
                 width={276}
                 alt="profile"
@@ -116,7 +116,7 @@ export default function Hero({
             </Box>
             <Box sx={{ mx: 3 }}>
               <Image
-                src="/images/home.png"
+                src="/images/screenshots/positions_dark.png"
                 alt="home"
                 sx={{
                   width: [231, 231, 327, 327],
@@ -129,7 +129,7 @@ export default function Hero({
             </Box>
             <Box>
               <Image
-                src="/images/prediction.png"
+                src="/images/screenshots/predictions_dark.png"
                 alt="prediction"
                 sx={{
                   width: [215, 215, 276, 276],
