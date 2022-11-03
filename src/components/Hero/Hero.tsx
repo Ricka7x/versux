@@ -56,7 +56,7 @@ export default function Hero({
                 mt: [1, 5],
               }}
             >
-              Tell us who wins, we&lsquo;ll tell you how to split the money
+                Enjoy soccer like never before.
             </Text>
             <Box sx={{ maxWidth: 691, margin: '0 auto' }}>
               <Text
@@ -64,8 +64,7 @@ export default function Hero({
                 sx={{ display: 'block', textAlign: 'center', mt: 3 }}
               >
                 Versux is a soccer polling app, created to give football soccer
-                fans all around the world an opportunity for their voice to be
-                heard.
+                fans all around a different experience.
               </Text>
             </Box>
 

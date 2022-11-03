@@ -137,7 +137,7 @@ export default function Privacy() {
                 </ul>
                 <h3>Usage Data</h3>
                 <p>Usage Data is collected automatically when using the Service.</p>
-                <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address),
+                <p>Usage Data may include information such as Your Device&apos;s Internet Protocol address (e.g. IP address),
                     browser type,
                     browser version, the pages of our Service that You visit, the time and date of Your visit, the time
                     spent on those
@@ -167,14 +167,14 @@ export default function Privacy() {
                 <p>If You decide to register through or otherwise grant us access to a Third-Party Social Media Service,
                     We
                     may collect
-                    Personal data that is already associated with Your Third-Party Social Media Service's account, such
+                    Personal data that is already associated with Your Third-Party Social Media Service&apos;s account, such
                     as
                     Your name,
                     Your email address, Your activities or Your contact list associated with that account.</p>
                 <p>You may also have the option of sharing additional information with the Company through Your
                     Third-Party
                     Social Media
-                    Service's account. If You choose to provide such information and Personal Data, during registration
+                    Service&apos;s account. If You choose to provide such information and Personal Data, during registration
                     or
                     otherwise,
                     You are giving the Company permission to use, share, and store it in a manner consistent with this
@@ -186,11 +186,11 @@ export default function Privacy() {
                     prior
                     permission:</p>
                 <ul>
-                    <li>Pictures and other information from your Device's camera and photo library</li>
+                    <li>Pictures and other information from your Device&apos;s camera and photo library</li>
                 </ul>
                 <p>We use this information to provide features of Our Service, to improve and customize Our Service. The
                     information may
-                    be uploaded to the Company's servers and/or a Service Provider's server or it may be simply stored
+                    be uploaded to the Company&apos;s servers and/or a Service Provider&apos;s server or it may be simply stored
                     on
                     Your
                     device.</p>
@@ -221,7 +221,7 @@ export default function Privacy() {
                     <li>
                         <p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other
                             equivalent forms of
-                            electronic communication, such as a mobile application's push notifications regarding
+                            electronic communication, such as a mobile application&apos;s push notifications regarding
                             updates or
                             informative
                             communications related to the functionalities, products or contracted services, including
@@ -306,7 +306,7 @@ export default function Privacy() {
                     functionality of
                     Our Service, or We are legally obligated to retain this data for longer time periods.</p>
                 <h2>Transfer of Your Personal Data</h2>
-                <p>Your information, including Personal Data, is processed at the Company's operating offices and in any
+                <p>Your information, including Personal Data, is processed at the Company&apos;s operating offices and in any
                     other places
                     where the parties involved in the processing are located. It means that this information may be
                     transferred to - and
@@ -396,12 +396,12 @@ export default function Privacy() {
                             your device
                             advertising settings or by following the instructions provided by Google in their Privacy
                             Policy: <a
-                                href="https://policies.google.com/privacy" rel="external nofollow noopener"
+                                href="https://policies.google.com/privacy" rel="external nofollow noreferrer"
                                 target="_blank">https://policies.google.com/privacy</a>
                         </p>
                         <p>For more information on the privacy practices of Google, please visit the Google
                             Privacy &amp; Terms web
-                            page: <a href="https://policies.google.com/privacy" rel="external nofollow noopener"
+                            page: <a href="https://policies.google.com/privacy" rel="external nofollow noopener noreferrer"
                                      target="_blank">https://policies.google.com/privacy</a>
                         </p>
                     </li>
@@ -424,14 +424,14 @@ export default function Privacy() {
                     <li>
                         <p><strong>Apple Store In-App Payments</strong></p>
                         <p>Their Privacy Policy can be viewed at <a href="https://www.apple.com/legal/privacy/en-ww/"
-                                                                    rel="external nofollow noopener"
+                                                                    rel="external nofollow noopener noreferrer"
                                                                     target="_blank">https://www.apple.com/legal/privacy/en-ww/</a>
                         </p>
                     </li>
                     <li>
                         <p><strong>Google Play In-App Payments</strong></p>
                         <p>Their Privacy Policy can be viewed at <a href="https://www.google.com/policies/privacy/"
-                                                                    rel="external nofollow noopener"
+                                                                    rel="external nofollow noopener noreferrer"
                                                                     target="_blank">https://www.google.com/policies/privacy/</a>
                         </p>
                     </li>
@@ -537,7 +537,7 @@ export default function Privacy() {
                     more information, if You are in the European Economic Area (EEA), please contact Your local data
                     protection
                     authority in the EEA.</p>
-                <h1>Children's Privacy</h1>
+                <h1>Children&apos;s Privacy</h1>
                 <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally
                     identifiable
                     information from anyone under the age of 13. If You are a parent or guardian and You are aware that
@@ -552,11 +552,11 @@ export default function Privacy() {
                 <p>If We need to rely on consent as a legal basis for processing Your information and Your country
                     requires
                     consent from
-                    a parent, We may require Your parent's consent before We collect and use that information.</p>
+                    a parent, We may require Your parent&apos;s consent before We collect and use that information.</p>
                 <h1>Links to Other Websites</h1>
                 <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third
                     party link, You
-                    will be directed to that third party's site. We strongly advise You to review the Privacy Policy of
+                    will be directed to that third party&apos;s site. We strongly advise You to review the Privacy Policy of
                     every site You
                     visit.</p>
                 <p>We have no control over and assume no responsibility for the content, privacy policies or practices
