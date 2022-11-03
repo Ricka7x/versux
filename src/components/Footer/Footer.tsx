@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Box, Flex, Text } from 'theme-ui';
+import {Box, Flex, Link, Text} from 'theme-ui';
 import { Container } from '../Container';
 
 export default function Footer() {
@@ -43,9 +43,12 @@ export default function Footer() {
                         pl: 0,
                       }}
                     >
-                      <li sx={{ mr: 4 }}>Home</li>
-                      <li sx={{ mr: 4 }}>Privacy</li>
-                      <li>Security</li>
+                      <li sx={{ mr: 4 }}>
+                          <Link href="/">Home</Link>
+                      </li>
+                      <li sx={{ mr: 4 }}>
+                          <Link href="/privacy">Privacy</Link>
+                      </li>
                     </ul>
                   </nav>
                 </Box>
