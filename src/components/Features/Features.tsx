@@ -41,7 +41,7 @@ export default function Features() {
                 </Text>
                 <Text sx={{ display: 'block', mb: [4, 4, 4, 4] }}>
                     You can add or edit predictions up to 12 hours before the match starts.
-                    After this time, the match is "closed" and you can no longer edit your predictions.
+                    After this time, the match is <strong>closed</strong> and you can no longer edit your predictions.
                 </Text>
                 <Text sx={{ display: 'block', mb: [4, 4, 0, 0] }}>
                     Your predictions are hidden to other participants until the match closes (12 hours before it starts).
