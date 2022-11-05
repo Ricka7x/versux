@@ -5,7 +5,7 @@ import { scroller } from 'react-scroll';
 import Container from '../Container/Container';
 import { MenuItem } from '../MenuItem';
 
-const navMenu = ['start', '3 easy steps to play', 'contact us'];
+const navMenu = ['start', 'steps', 'contact us'];
 
 export type NavigationPropsType = {
   activeMenuOption: string;
@@ -24,7 +24,7 @@ export default function Navigation({
       }}
     >
       <Headroom>
-        <nav>
+        <nav sx={{ backgroundColor: 'background' }}>
           <Container>
             <Flex
               sx={{

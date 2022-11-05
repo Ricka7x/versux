@@ -4,7 +4,6 @@ import { keyframes } from '@emotion/react';
 import { Navigation } from '../Navigation';
 import Container from '../Container/Container';
 import { NavigationPropsType } from '../Navigation/Navigation';
-import heroBG from '../../../public/images/hero_bg.png';
 
 const gradient = keyframes`
   0% {
@@ -23,25 +22,8 @@ export default function Hero({
   setActiveMenuOption,
 }: NavigationPropsType) {
   return (
-    <Box
-      sx={{
-        // height: ['100vh', 800],
-
-        height: ['100vh', 760],
-        background: `linear-gradient(-45deg, #ee7752, #e73c7e, #866FFF, #20C2D7)`,
-        backgroundSize: '400% 400%',
-        animation: `${gradient} 10s ease infinite`,
-      }}
-    >
-      <Box
-        sx={{
-          background: `url(${heroBG.src}) no-repeat`,
-          backgroundSize: 'cover',
-          backgroundPositionY: 'bottom',
-          backgroundRepeat: 'no-repeat',
-          height: '200%',
-        }}
-      >
+    <Box>
+      <Box>
         <Navigation
           activeMenuOption={activeMenuOption}
           setActiveMenuOption={setActiveMenuOption}
@@ -54,16 +36,24 @@ export default function Hero({
                 display: 'block',
                 textAlign: 'center',
                 mt: [1, 5],
+                background: `linear-gradient(-45deg, #ee7752, #e73c7e, #866FFF, #20C2D7)`,
+                backgroundSize: '200% 200%',
+                backgroundClip: 'text',
+                color: 'transparent',
+
+                animation: `${gradient} 10s ease infinite`,
               }}
             >
-                Football pools like never before.
+              Football pools <br />
+              like never before.
             </Text>
             <Box sx={{ maxWidth: 691, margin: '0 auto' }}>
               <Text
                 variant="lead"
-                sx={{ display: 'block', textAlign: 'center', mt: 3 }}
+                sx={{ display: 'block', textAlign: 'center', mt: 3, mb: 5 }}
               >
-                  Challenge your friends and family to a soccer pool. Track points and positions in real time.
+                Challenge your friends and family to a soccer pool. Track points
+                and positions in real time.
               </Text>
             </Box>
 
@@ -89,6 +79,7 @@ export default function Hero({
               </Box>
             </Flex>
           </Box>
+
           <Flex
             sx={{
               justifyContent: 'center',
@@ -100,7 +91,7 @@ export default function Hero({
           >
             <Box>
               <Image
-                src="/images/screenshots/jennifer_dark.png"
+                src="/images/pools_dark.png"
                 height={562}
                 width={276}
                 alt="profile"
@@ -115,7 +106,7 @@ export default function Hero({
             </Box>
             <Box sx={{ mx: 3 }}>
               <Image
-                src="/images/screenshots/positions_dark.png"
+                src="/images/positions_dark.png"
                 alt="home"
                 sx={{
                   width: [231, 231, 327, 327],
@@ -128,7 +119,7 @@ export default function Hero({
             </Box>
             <Box>
               <Image
-                src="/images/screenshots/predictions_dark.png"
+                src="/images/predictions_dark.png"
                 alt="prediction"
                 sx={{
                   width: [215, 215, 276, 276],
@@ -140,6 +131,12 @@ export default function Hero({
               />
             </Box>
           </Flex>
+
+          {/* <Flex>
+            <Box>
+              <Image src="/images/mockup.png" alt="profile" />
+            </Box>
+          </Flex> */}
         </Container>
       </Box>
     </Box>
