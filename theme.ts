@@ -13,7 +13,11 @@ enum COLORS {
   PURPLE = '#866FFF',
   DARK_PURPLE = '#372948',
   CYAN = '#20C2D7',
+  STEEL_GREY = '#242130',
+  EBONY_CLAY = '#2C2842',
 }
+
+console.log(base);
 
 export const theme: Theme = {
   ...base,
@@ -32,7 +36,8 @@ export const theme: Theme = {
     disabled: COLORS.LIGHT_GREY,
     light: COLORS.LIGHT_GREY,
     link: COLORS.PURPLE,
-    background: COLORS.WHITE,
+    background: COLORS.STEEL_GREY,
+    card: COLORS.EBONY_CLAY,
   },
   fonts: {
     ...base.fonts,
@@ -44,12 +49,14 @@ export const theme: Theme = {
     default: {
       fontSize: 2,
       lineHeight: 1.8,
+      color: 'white',
     },
     h1: {
       fontFamily: 'heading',
       fontWeight: 800,
-      fontSize: [40, 40, 40, 60],
+      fontSize: [50, 50, 50, 80],
       lineHeight: [1.2, 1.3],
+      color: 'white',
     },
 
     h2: {
@@ -57,13 +64,15 @@ export const theme: Theme = {
       fontWeight: 800,
       fontSize: [40, 40, 40, 50],
       lineHeight: [1.2, 1.3],
+      color: 'white',
     },
 
     h3: {
       fontFamily: 'heading',
       fontWeight: 800,
-      fontSize: [32, 32, 32, 40],
+      fontSize: [30, 30, 30, 30],
       lineHeight: [1.2, 1.3],
+      color: 'white',
     },
 
     body: {
@@ -220,9 +229,11 @@ export const theme: Theme = {
   },
   cards: {
     primary: {
-      padding: 2,
+      padding: 4,
       borderRadius: 40,
       boxShadow: '0 10px 28px rgba(25, 25, 25, 0.05)',
+      backgroundColor: 'card',
+      textAlign: 'center',
     },
     compact: {
       padding: 1,

@@ -1,11 +1,13 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import { Element } from 'react-scroll';
-import { About } from '../src/components/About';
-import { Features } from '../src/components/Features';
+// import { About } from '../src/components/About';
+// import { Features } from '../src/components/Features';
 import { Footer } from '../src/components/Footer';
 import { Hero } from '../src/components/Hero';
-import {Contact} from "../src/components/Contact";
+import { Contact } from '../src/components/Contact';
+import { Steps } from '../src/components/Steps';
+import { Download } from '../src/components/Download';
 
 export default function Home() {
   const [activeMenuOption, setActiveMenuOption] = useState('home');
@@ -16,6 +18,7 @@ export default function Home() {
         flexDirection: 'column',
         // set this to `minHeight: '100vh'` for full viewport height
         minHeight: `100vh`,
+        backgroundColor: 'background',
       }}
     >
       <Head>
@@ -41,8 +44,10 @@ export default function Home() {
           flex: '1 1 auto',
         }}
       >
-        <About />
-        <Features />
+        {/* <About /> */}
+        {/* <Features /> */}
+        <Steps />
+        <Download />
         <Contact />
       </main>
       <Footer />
