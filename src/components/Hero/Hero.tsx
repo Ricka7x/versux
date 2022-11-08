@@ -4,6 +4,7 @@ import { keyframes } from '@emotion/react';
 import { Navigation } from '../Navigation';
 import Container from '../Container/Container';
 import { NavigationPropsType } from '../Navigation/Navigation';
+import Link from "next/link";
 
 const gradient = keyframes`
   0% {
@@ -64,18 +65,22 @@ export default function Hero({
               }}
             >
               <Box sx={{ mr: 3, mb: [3, 0, 0, 0] }}>
-                <Image
-                  src="/images/google_play_btn.svg"
-                  sx={{ width: [150, 180], height: [46, 55] }}
-                  alt="google play button"
-                />
+                <Link href={"https://play.google.com/store/apps/details?id=app.versux.versux"}>
+                  <Image
+                    src="/images/google_play_btn.svg"
+                    sx={{ width: [150, 180], height: [46, 55] }}
+                    alt="google play button"
+                  />
+                </Link>
               </Box>
               <Box>
-                <Image
-                  src="/images/apple_store_btn.svg"
-                  sx={{ width: [150, 180], height: [46, 55] }}
-                  alt="apple store button"
-                />
+                <Link href={"https://apps.apple.com/us/app/versux/id6444013043"}>
+                  <Image
+                    src="/images/apple_store_btn.svg"
+                    sx={{ width: [150, 180], height: [46, 55] }}
+                    alt="apple store button"
+                  />
+                </Link>
               </Box>
             </Flex>
           </Box>
