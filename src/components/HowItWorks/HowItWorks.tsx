@@ -84,10 +84,6 @@ export default function HowItWorks() {
                   start participating right away. Accept as many invitations as
                   you want!
                 </Text>
-
-                <Link sx={{ display: 'block', mt: 4, mb: [4, 0] }}>
-                  Learn more &#x2192;
-                </Link>
               </Box>
             </Flex>
 
@@ -141,9 +137,6 @@ export default function HowItWorks() {
                   Your predictions are hidden to other participants until the
                   match closes (12 hours before it starts).
                 </Text>
-                <Link sx={{ display: 'block', mt: 4, mb: [4, 0] }}>
-                  Learn more &#x2192;
-                </Link>
               </Box>
 
               <Box
@@ -235,9 +228,6 @@ export default function HowItWorks() {
                   have accumulated. In case of a tie, the pool that was modified
                   first is ranked higher.
                 </Text>
-                <Link sx={{ display: 'block', mt: 4, mb: [4, 0] }}>
-                  Learn more &#x2192;
-                </Link>
               </Box>
             </Flex>
           </Container>
