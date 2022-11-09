@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import {Box, Flex, Link, Text} from 'theme-ui';
+import { Box, Flex, Link, Text } from 'theme-ui';
 import { Container } from '../Container';
 
 export default function Footer() {
@@ -37,6 +37,7 @@ export default function Footer() {
                     <ul
                       sx={{
                         display: 'flex',
+                        justifyContent: 'center',
                         listStyle: 'none',
                         color: 'white',
                         ml: 0,
@@ -44,10 +45,10 @@ export default function Footer() {
                       }}
                     >
                       <li sx={{ mr: 4 }}>
-                          <Link href="/">Home</Link>
+                        <Link href="/">Home</Link>
                       </li>
-                      <li sx={{ mr: 4 }}>
-                          <Link href="/privacy">Privacy</Link>
+                      <li>
+                        <Link href="/privacy">Privacy</Link>
                       </li>
                     </ul>
                   </nav>

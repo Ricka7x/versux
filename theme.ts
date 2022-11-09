@@ -17,8 +17,6 @@ enum COLORS {
   EBONY_CLAY = '#2C2842',
 }
 
-console.log(base);
-
 export const theme: Theme = {
   ...base,
   colors: {

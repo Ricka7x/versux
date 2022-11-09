@@ -1,12 +1,10 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import { Element } from 'react-scroll';
-// import { About } from '../src/components/About';
-// import { Features } from '../src/components/Features';
+import { HowItWorks } from '../src/components/HowItWorks';
 import { Footer } from '../src/components/Footer';
 import { Hero } from '../src/components/Hero';
 import { Contact } from '../src/components/Contact';
-import { Steps } from '../src/components/Steps';
 import { Download } from '../src/components/Download';
 
 export default function Home() {
@@ -31,7 +29,7 @@ export default function Home() {
           width: '100%',
         }}
       >
-        <Element name="start">
+        <Element name="home">
           <Hero
             activeMenuOption={activeMenuOption}
             setActiveMenuOption={setActiveMenuOption}
@@ -44,9 +42,7 @@ export default function Home() {
           flex: '1 1 auto',
         }}
       >
-        {/* <About /> */}
-        {/* <Features /> */}
-        <Steps />
+        <HowItWorks />
         <Download />
         <Contact />
       </main>

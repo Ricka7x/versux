@@ -1,4 +1,4 @@
-import { Box, Flex, Image } from 'theme-ui';
+import { Box, Flex, Image, Link } from 'theme-ui';
 import { Container } from '../Container';
 import BG from '../../../public/images/bg.svg';
 
@@ -20,12 +20,18 @@ export default function Download() {
               height: '100%',
             }}
           >
-            <Box sx={{ mr: 3, mb: [3, 0, 0, 0] }}>
-              <Image
-                src="/images/google_play_btn.svg"
-                sx={{ width: [150, 180], height: [46, 55] }}
-                alt="google play button"
-              />
+            <Box sx={{ mr: 3 }}>
+              <Link
+                href={
+                  'https://play.google.com/store/apps/details?id=app.versux.versux'
+                }
+              >
+                <Image
+                  src="/images/google_play_btn.svg"
+                  sx={{ width: [150, 180], height: [46, 55] }}
+                  alt="google play button"
+                />
+              </Link>
             </Box>
             <Box>
               <Image

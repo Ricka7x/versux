@@ -5,7 +5,7 @@ import { scroller } from 'react-scroll';
 import Container from '../Container/Container';
 import { MenuItem } from '../MenuItem';
 
-const navMenu = ['start', 'steps', 'contact us'];
+const navMenu = ['home', 'how it works', 'contact us'];
 
 export type NavigationPropsType = {
   activeMenuOption: string;
