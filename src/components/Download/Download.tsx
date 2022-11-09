@@ -21,7 +21,7 @@ export default function Download() {
             }}
           >
             <Box sx={{ mr: 3 }}>
-              <Link
+              <a
                 href={
                   'https://play.google.com/store/apps/details?id=app.versux.versux'
                 }
@@ -31,14 +31,18 @@ export default function Download() {
                   sx={{ width: [150, 180], height: [46, 55] }}
                   alt="google play button"
                 />
-              </Link>
+              </a>
             </Box>
             <Box>
+              <a
+                href={'https://apps.apple.com/us/app/versux/id6444013043'}
+              >
               <Image
                 src="/images/apple_store_btn.svg"
                 sx={{ width: [150, 180], height: [46, 55] }}
                 alt="apple store button"
               />
+              </a>
             </Box>
           </Flex>
         </Container>

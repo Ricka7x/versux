@@ -65,7 +65,7 @@ export default function Hero({
               }}
             >
               <Box sx={{ mr: 3, mb: [3, 3, 3, 3] }}>
-                <Link
+                <a
                   href={
                     'https://play.google.com/store/apps/details?id=app.versux.versux'
                   }
@@ -75,10 +75,10 @@ export default function Hero({
                     sx={{ width: [150, 180], height: [46, 55] }}
                     alt="google play button"
                   />
-                </Link>
+                </a>
               </Box>
               <Box>
-                <Link
+                <a
                   href={'https://apps.apple.com/us/app/versux/id6444013043'}
                 >
                   <Image
@@ -86,7 +86,7 @@ export default function Hero({
                     sx={{ width: [150, 180], height: [46, 55] }}
                     alt="apple store button"
                   />
-                </Link>
+                </a>
               </Box>
             </Flex>
           </Box>
