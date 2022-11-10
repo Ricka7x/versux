@@ -16,7 +16,7 @@ export default function Home() {
         flexDirection: 'column',
         // set this to `minHeight: '100vh'` for full viewport height
         minHeight: `100vh`,
-        backgroundColor: 'background',
+        backgroundColor: 'bg',
       }}
     >
       <Head>

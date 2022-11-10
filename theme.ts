@@ -34,7 +34,7 @@ export const theme: Theme = {
     disabled: COLORS.LIGHT_GREY,
     light: COLORS.LIGHT_GREY,
     link: COLORS.PURPLE,
-    background: COLORS.STEEL_GREY,
+    bg: COLORS.STEEL_GREY,
     card: COLORS.EBONY_CLAY,
   },
   fonts: {
@@ -157,7 +157,7 @@ export const theme: Theme = {
   buttons: {
     hero: {
       cursor: 'pointer',
-      color: 'background',
+      color: 'bg',
       height: 74,
 
       borderRadius: 37,
@@ -171,7 +171,7 @@ export const theme: Theme = {
 
     menu: {
       cursor: 'pointer',
-      color: 'background',
+      color: 'bg',
       height: 52,
       width: 160,
       borderRadius: 26,
@@ -185,7 +185,7 @@ export const theme: Theme = {
 
     primary: {
       cursor: 'pointer',
-      color: 'background',
+      color: 'bg',
       height: 58,
       width: 307,
       borderRadius: 37,
@@ -199,7 +199,7 @@ export const theme: Theme = {
 
     secondary: {
       cursor: 'pointer',
-      color: 'background',
+      color: 'bg',
       height: 58,
       borderRadius: 10,
       bg: 'secondary',
