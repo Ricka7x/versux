@@ -81,8 +81,8 @@ export default function HowItWorks() {
                     </Text>
                   </Flex>
                   <Text sx={{ display: 'block', mb: [4, 4, 4, 4] }}>
-                    Create as many pools as you want and invite as many friends
-                    as you like.
+                    Create as many pools as you want and invite up to 300 friends
+                    per pool.
                   </Text>
 
                   <Text sx={{ display: 'block', mb: [4, 4, 0, 0] }}>
