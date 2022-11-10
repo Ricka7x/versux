@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Link } from 'theme-ui';
+import { Box, Flex, Image, Link, Text } from 'theme-ui';
 import { Container } from '../Container';
 import BG from '../../../public/images/bg.svg';
 
@@ -13,11 +13,15 @@ export default function Download() {
         }}
       >
         <Container>
+          <Flex>
+            <Text variant="h3" sx={{ mt: 5, mb: 4, color: 'bg' }}>
+              Ready to be a part of this?
+            </Text>
+          </Flex>
           <Flex
             sx={{
               justifyContent: 'center',
               alignItems: 'center',
-              height: '100%',
             }}
           >
             <Box sx={{ mr: 3 }}>
@@ -34,14 +38,12 @@ export default function Download() {
               </a>
             </Box>
             <Box>
-              <a
-                href={'https://apps.apple.com/us/app/versux/id6444013043'}
-              >
-              <Image
-                src="/images/apple_store_btn.svg"
-                sx={{ width: [150, 180], height: [46, 55] }}
-                alt="apple store button"
-              />
+              <a href={'https://apps.apple.com/us/app/versux/id6444013043'}>
+                <Image
+                  src="/images/apple_store_btn.svg"
+                  sx={{ width: [150, 180], height: [46, 55] }}
+                  alt="apple store button"
+                />
               </a>
             </Box>
           </Flex>

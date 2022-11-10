@@ -4,7 +4,7 @@ import { keyframes } from '@emotion/react';
 import { Navigation } from '../Navigation';
 import Container from '../Container/Container';
 import { NavigationPropsType } from '../Navigation/Navigation';
-import Link from 'next/link';
+import Fade from 'react-reveal/Fade';
 
 const gradient = keyframes`
   0% {
@@ -48,100 +48,104 @@ export default function Hero({
               Football pools <br />
               like never before.
             </Text>
-            <Box sx={{ maxWidth: 691, margin: '0 auto' }}>
-              <Text
-                variant="lead"
-                sx={{ display: 'block', textAlign: 'center', mt: 3, mb: 5 }}
-              >
-                Challenge your friends and family to a soccer pool. Track points
-                and positions in real time.
-              </Text>
-            </Box>
+            <Fade bottom>
+              <Box sx={{ maxWidth: 691, margin: '0 auto' }}>
+                <Text
+                  variant="lead"
+                  sx={{ display: 'block', textAlign: 'center', mt: 3, mb: 5 }}
+                >
+                  Challenge your friends and family to a soccer pool. Track
+                  points and positions in real time.
+                </Text>
+              </Box>
+            </Fade>
 
-            <Flex
-              sx={{
-                mt: 4,
-                justifyContent: 'center',
-              }}
-            >
-              <Box sx={{ mr: 3, mb: [3, 3, 3, 3] }}>
-                <a
-                  href={
-                    'https://play.google.com/store/apps/details?id=app.versux.versux'
-                  }
-                >
-                  <Image
-                    src="/images/google_play_btn.svg"
-                    sx={{ width: [150, 180], height: [46, 55] }}
-                    alt="google play button"
-                  />
-                </a>
-              </Box>
-              <Box>
-                <a
-                  href={'https://apps.apple.com/us/app/versux/id6444013043'}
-                >
-                  <Image
-                    src="/images/apple_store_btn.svg"
-                    sx={{ width: [150, 180], height: [46, 55] }}
-                    alt="apple store button"
-                  />
-                </a>
-              </Box>
-            </Flex>
+            <Fade bottom>
+              <Flex
+                sx={{
+                  mt: 4,
+                  justifyContent: 'center',
+                }}
+              >
+                <Box sx={{ mr: 3, mb: [3, 3, 3, 3] }}>
+                  <a
+                    href={
+                      'https://play.google.com/store/apps/details?id=app.versux.versux'
+                    }
+                  >
+                    <Image
+                      src="/images/google_play_btn.svg"
+                      sx={{ width: [150, 180], height: [46, 55] }}
+                      alt="google play button"
+                    />
+                  </a>
+                </Box>
+                <Box>
+                  <a href={'https://apps.apple.com/us/app/versux/id6444013043'}>
+                    <Image
+                      src="/images/apple_store_btn.svg"
+                      sx={{ width: [150, 180], height: [46, 55] }}
+                      alt="apple store button"
+                    />
+                  </a>
+                </Box>
+              </Flex>
+            </Fade>
           </Box>
 
-          <Flex
-            sx={{
-              justifyContent: 'center',
-              alignItems: 'center',
-              mt: 4,
-              mb: 10,
-              display: ['none', 'flex'],
-            }}
-          >
-            <Box>
-              <Image
-                src="/images/pools_dark.png"
-                height={562}
-                width={276}
-                alt="profile"
-                sx={{
-                  width: [215, 215, 276, 276],
-                  height: [438, 438, 562, 562],
-                  boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
-                  borderBottomLeftRadius: [38, 38, 47, 53],
-                  borderBottomRightRadius: [38, 38, 47, 53],
-                }}
-              />
-            </Box>
-            <Box sx={{ mx: 3 }}>
-              <Image
-                src="/images/positions_dark.png"
-                alt="home"
-                sx={{
-                  width: [231, 231, 327, 327],
-                  height: [470, 470, 664, 664],
-                  boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
-                  borderBottomLeftRadius: [42, 42, 56, 61],
-                  borderBottomRightRadius: [42, 42, 56, 61],
-                }}
-              />
-            </Box>
-            <Box>
-              <Image
-                src="/images/predictions_dark.png"
-                alt="prediction"
-                sx={{
-                  width: [215, 215, 276, 276],
-                  height: [438, 438, 562, 562],
-                  boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
-                  borderBottomLeftRadius: [38, 38, 47, 53],
-                  borderBottomRightRadius: [38, 38, 47, 53],
-                }}
-              />
-            </Box>
-          </Flex>
+          <Fade bottom>
+            <Flex
+              sx={{
+                justifyContent: 'center',
+                alignItems: 'center',
+                mt: 4,
+                mb: 10,
+                display: ['none', 'flex'],
+              }}
+            >
+              <Box>
+                <Image
+                  src="/images/pools_dark.png"
+                  height={562}
+                  width={276}
+                  alt="profile"
+                  sx={{
+                    width: [215, 215, 276, 276],
+                    height: [438, 438, 562, 562],
+                    boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
+                    borderBottomLeftRadius: [38, 38, 47, 53],
+                    borderBottomRightRadius: [38, 38, 47, 53],
+                  }}
+                />
+              </Box>
+              <Box sx={{ mx: 3 }}>
+                <Image
+                  src="/images/positions_dark.png"
+                  alt="home"
+                  sx={{
+                    width: [231, 231, 327, 327],
+                    height: [470, 470, 664, 664],
+                    boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
+                    borderBottomLeftRadius: [42, 42, 56, 61],
+                    borderBottomRightRadius: [42, 42, 56, 61],
+                  }}
+                />
+              </Box>
+              <Box>
+                <Image
+                  src="/images/predictions_dark.png"
+                  alt="prediction"
+                  sx={{
+                    width: [215, 215, 276, 276],
+                    height: [438, 438, 562, 562],
+                    boxShadow: '1px 31px 21px -8px rgba(0,0,0,0.26)',
+                    borderBottomLeftRadius: [38, 38, 47, 53],
+                    borderBottomRightRadius: [38, 38, 47, 53],
+                  }}
+                />
+              </Box>
+            </Flex>
+          </Fade>
         </Container>
       </Box>
     </Box>

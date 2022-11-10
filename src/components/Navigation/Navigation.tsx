@@ -24,7 +24,7 @@ export default function Navigation({
       }}
     >
       <Headroom>
-        <nav sx={{ backgroundColor: 'background' }}>
+        <nav sx={{ backgroundColor: 'bg' }}>
           <Container>
             <Flex
               sx={{
