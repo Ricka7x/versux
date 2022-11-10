@@ -81,7 +81,7 @@ export default function Hero({
                   </a>
                 </Box>
                 <Box>
-                  <a href={'https://apps.apple.com/us/app/versux/id6444013043'}>
+                  <a href={'https://apps.apple.com/app/versux/id6444013043'}>
                     <Image
                       src="/images/apple_store_btn.svg"
                       sx={{ width: [150, 180], height: [46, 55] }}
