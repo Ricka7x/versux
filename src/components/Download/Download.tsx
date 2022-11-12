@@ -14,7 +14,10 @@ export default function Download() {
       >
         <Container>
           <Flex>
-            <Text variant="h3" sx={{ mt: 5, mb: 4, color: 'bg' }}>
+            <Text
+              variant="h3"
+              sx={{ mt: 5, mb: 4, color: 'bg', textAlign: 'center' }}
+            >
               Ready to be a part of this?
             </Text>
           </Flex>
