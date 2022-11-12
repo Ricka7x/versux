@@ -17,6 +17,8 @@ export default function Home() {
         // set this to `minHeight: '100vh'` for full viewport height
         minHeight: `100vh`,
         backgroundColor: 'bg',
+        maxWidth: '100vw',
+        overflowX: 'hidden',
       }}
     >
       <Head>
