@@ -43,11 +43,11 @@ export default function Steps() {
                   <Text variant="h3">1</Text>
                 </Box>
                 <Text sx={{ display: 'block', my: 4 }} variant="h3">
-                  Join a pool. Or twenty
+                  Join a group. Or twenty
                 </Text>
                 <Text sx={{ display: 'block', mb: [4, 4, 4, 4] }}>
-                  Create as many pools as you want and invite as many friends as
-                  you like. <br /> If you are invited to a pool, you can accept
+                  Create as many groups as you want and invite as many friends as
+                  you like. <br /> If you are invited to a group, you can accept
                   the invite and start participating right away. Accept as many
                   invitations as you want!
                 </Text>
@@ -122,8 +122,8 @@ export default function Steps() {
 
                 <Text sx={{ display: 'block', mb: [4, 4, 0, 0] }}>
                   Ranks are calculated based on the total number of points you
-                  have accumulated. In case of a tie, the pool that was modified
-                  first is ranked higher.
+                  have accumulated. In case of a tie, predictions that were modified
+                  first are ranked higher.
                 </Text>
               </Card>
             </Flex>

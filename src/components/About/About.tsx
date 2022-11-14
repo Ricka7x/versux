@@ -44,7 +44,7 @@ export default function About() {
                   textAlign: ['center', 'center', 'initial', 'initial'],
                 }}
               >
-                1. Join a pool. Or twenty.
+                1. Join a group. Or twenty.
               </Text>
               <Text
                 variant="body"
@@ -54,7 +54,7 @@ export default function About() {
                   mb: [4, 4, 4, 4],
                 }}
               >
-                  Create as many pools as you  want and invite as many friends as you like.
+                  Create as many grous as you  want and invite up to 300 friends per group.
 
               </Text>
                 <Text
@@ -65,7 +65,7 @@ export default function About() {
                         mb: [4, 4, 4, 4],
                     }}
                 >
-                    If you are invited to a pool, you can accept the invite and start participating right away.
+                    If you are invited to a group, you can accept the invite and start participating right away.
                     Accept as many invitations as you want!
 
                 </Text>

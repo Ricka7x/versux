@@ -77,16 +77,16 @@ export default function HowItWorks() {
                       <Text variant="h3">1</Text>
                     </Flex>
                     <Text sx={{ display: 'block' }} variant="h3">
-                      Join a pool. Or twenty.
+                      Join a group. Or twenty.
                     </Text>
                   </Flex>
                   <Text sx={{ display: 'block', mb: [4, 4, 4, 4] }}>
-                    Create as many pools as you want and invite up to 300 friends
-                    per pool.
+                    Create as many groups as you want and invite up to 300 friends
+                    per group.
                   </Text>
 
                   <Text sx={{ display: 'block', mb: [4, 4, 0, 0] }}>
-                    If you are invited to a pool, you can accept the invite and
+                    If you are invited to a group, you can accept the invite and
                     start participating right away. Accept as many invitations
                     as you want!
                   </Text>
@@ -238,8 +238,8 @@ export default function HowItWorks() {
                   </ul>
                   <Text sx={{ display: 'block', mb: [4, 4, 0, 0] }}>
                     Ranks are calculated based on the total number of points you
-                    have accumulated. In case of a tie, the pool that was
-                    modified first is ranked higher.
+                    have accumulated. In case of a tie, predictions that were
+                    modified first are ranked higher.
                   </Text>
                 </Fade>
               </Box>

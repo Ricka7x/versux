@@ -23,7 +23,7 @@ export default function Home() {
     >
       <Head>
         <title>versux</title>
-        <meta name="description" content="Versux soccer pools app" />
+        <meta name="description" content="Versux soccer predictions game app" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header

@@ -45,7 +45,7 @@ export default function Hero({
                 animation: `${gradient} 10s ease infinite`,
               }}
             >
-              Football pools <br />
+              Football predictions game <br />
               like never before.
             </Text>
             <Fade bottom>
@@ -54,7 +54,7 @@ export default function Hero({
                   variant="lead"
                   sx={{ display: 'block', textAlign: 'center', mt: 3, mb: 5 }}
                 >
-                  Challenge your friends and family to a soccer pool. Track
+                  Challenge your friends and family to predict match scores. Track
                   points and positions in real time.
                 </Text>
               </Box>
