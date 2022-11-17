@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.versux.versux",
+      "sha256_cert_fingerprints": [
+        "8D:7C:4F:D5:6F:50:6E:90:0B:2F:06:5A:C2:69:F6:EC:8C:E3:0A:8D:E1:F8:77:E2:56:84:3B:B5:CB:F4:F3:1B"
+      ]
+    }
+  }
+]
